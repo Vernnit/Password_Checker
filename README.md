@@ -1,9 +1,10 @@
 # Password_Checker
 
+## What it does ?
 This is a Password Checker which tells whether the password you entered has ever been breached or is it safe to use.
 
 
-# HOW IT WORKS ?
+## How it works ?
 
 We are using pwnedpasswords API here to check for the password's security , if it has been breached or not.
 
