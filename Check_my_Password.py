@@ -36,14 +36,12 @@ def main():
     password =askpass(prompt="Enter Your Password: ", mask="*")
     count=Check_password(password)
     if count :
-        print(f'This Password has been leaked {count} times. \nBetter Choose another One !')
+        print(f'This Password has been breached {count} times. \nBetter Choose another One !')
     else :
-        print('Good News ! No breaches found. Your password is safe for use.')
+        print('Good News ! No breaches found. You are good to go. \n \n :)')
         
     return None
 
 
 if __name__=='__main__':
     main()
-
-
